@@ -1,0 +1,46 @@
+name: flutter_application_1
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  #fonts:
+   # - family: Alumni Sans Pinstripe
+    #  fonts:
+       # - asset: fonts/AlumniSansPinstripe-Italic.ttf
+      #  - asset: fonts/AlumniSansPinstripe-Regular.ttf
+     #     style: italic
+    
+    #- family: Silkscreen
+      #fonts:
+        #- asset: fonts/Silkscreen-Bold.ttf
+        #- asset: fonts/Silkscreen-Regular.ttf
+          #weight: 700
+  
+  assets:
+    - assets/logo.png
+    - assets/churrasco.png
+    - assets/laureles.png
+    - assets/cisneros.png
+    - assets/logoR.png
+
+
